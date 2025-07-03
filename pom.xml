@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.github.tduarte29</groupId>
 	<artifactId>pokement</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<name>pokement</name>
 	<description>Componente de Regiões referente a pokerest.</description>
 	<url>http://www.example.com/example-application</url>
@@ -75,18 +75,6 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<version>3.1.0</version>
@@ -137,5 +125,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<packaging>jar</packaging>
 </project>
