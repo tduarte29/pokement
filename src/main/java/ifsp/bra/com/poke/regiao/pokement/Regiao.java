@@ -1,12 +1,14 @@
 package ifsp.bra.com.poke.regiao.pokement;
 
-import jakarta.persistence.*;
 import java.util.Objects;
 
-/**
- * Entidade que representa uma Região do universo Pokémon.
- * Responsável apenas pelo mapeamento dos dados da tabela 'Regiao'.
- */
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
 @Entity
 @Table(name = "Regiao")
 public class Regiao {
@@ -24,14 +26,10 @@ public class Regiao {
     @Column(name = "geracao_introduzida", nullable = false)
     private Integer geracaoIntroduzida;
 
-    /**
-     * Construtor padrão.
-     */
+    
     public Regiao() {}
 
-    /**
-     * Construtor para criação de Região sem ID.
-     */
+
     public Regiao(String nome, String descricao, Integer geracaoIntroduzida) {
         this.nome = nome;
         this.descricao = descricao;
