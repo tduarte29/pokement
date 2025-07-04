@@ -28,7 +28,7 @@ Contém abstrações relacionadas às **interfaces requeridas**, simulando caixa
 
 ## Como Usar
 
-Este projeto está disponível no [Maven Central]([https://central.sonatype.com/artifact/io.github.lifveras/bredeco_pic_abstract](https://central.sonatype.com/artifact/io.github.tduarte29/pokement)).
+Este projeto está disponível no Maven Central em: https://central.sonatype.com/artifact/io.github.tduarte29/pokement
 
 Adicione a dependência no seu `pom.xml`:
 
