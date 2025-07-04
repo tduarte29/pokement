@@ -1,6 +1,6 @@
 # Componente Pokemon
 
-Este projeto contém **abstrações base do PIC (Processo de Integração de Componentes)** para Java. Ele foi desenvolvido como parte da disciplina de **Desenvolvimento de Componentes (BRADECO)** do curso de Tecnologia em Análise e Desenvolvimento de Sistemas - Campus Bragança Paulista. O objetivo é fornecer um conjunto de interfaces e classes abstratas que representam os principais elementos arquiteturais de um sistema baseado em componentes reutilizáveis. Como tema foi utilizado a pokerest, se baseando em entidades do universo pokemon.
+Este projeto implementa um componente reutilizável seguindo o **Padrão de Interface de Componentes (PIC)**, desenvolvido para a disciplina de Desenvolvimento de Componentes (BRADECO) no IFSP Bragança Paulista. O tema é baseado no universo Pokémon (Pokerest), focando em operações e gerenciamento de regiões. O objetivo é demonstrar, na prática, a criação de componentes desacoplados, com interfaces claras e aplicação dos princípios SOLID, facilitando integração, manutenção e reuso.
 
 >  Foi utilizado as dependencias provenientes do github: https://github.com/lifveras/bradeco_pic_abstract/tree/master, do professor.
 
