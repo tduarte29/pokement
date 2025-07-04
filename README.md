@@ -27,9 +27,9 @@ Contém abstrações relacionadas às **interfaces requeridas**, simulando caixa
 ---
 
 ## Como Usar
-
-Este projeto está disponível no Maven Central em: https://central.sonatype.com/artifact/io.github.tduarte29/pokement
-
+Este projeto está disponível no Maven Central em: https://central.sonatype.com/artifact/io.github.tduarte29/pokement  
+A dependência publicada refere-se à branch **main**, que utiliza a implementação sem a dependência do PIC externo.  
+A versão com o PIC do professor está disponível apenas para fins acadêmicos, estudos e comparações, e não foi publicada no repositório.
 Adicione a dependência no seu `pom.xml`:
 
 ```xml
