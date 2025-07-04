@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import ifsp.bra.com.poke.regiao.pokement.Regiao;
 
+// Porta Requerida: Interface de acesso a dados (Repository) do padrão PIC
 @Repository
 public interface RegiaoRepository extends JpaRepository<Regiao, Long> {
     Optional<Regiao> findByNome(String nome);
